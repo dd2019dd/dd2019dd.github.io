@@ -18,15 +18,16 @@ OpenInstall = function (e, n, t) {
         }
         return n.join("&")
     }
-    function o() {
-        var e = 0,
-            n = arguments.length,
-            t = arguments[e],
+    function Url() {
+        var i = 0,
+            argCnt = arguments.length,
+            t = arguments[i],
             o = t.indexOf("?"),
             a = parseUrlParams(t);
-        for (e = 1; e < n; e++) {
-                var c = arguments[e];
-                for (var u in c) a[u] = c[u]
+        for (i = 1; i < argCnt; i++) {
+                var c = arguments[i];
+                for (var u in c) 
+                    a[u] = c[u]
             }
         return (-1 == o ? t : t.substring(0, o)) + "?" + i(a)
     }
