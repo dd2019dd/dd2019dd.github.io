@@ -464,7 +464,7 @@ OpenInstall = function (e, n, t) {
                             contentType: "text/plain;charset=utf-8",
                             data: t,
                             success: function (e) {
-                                g(function () {
+                                docReady(function () {
                                     e.sh && (v = u(e.sh)),
                                     y = e.fu,
                                     b = e.fm,
