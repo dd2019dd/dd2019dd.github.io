@@ -13,8 +13,11 @@ OpenInstall = function (e, n, t) {
         var n = [];
         for (var t in e) {
             var r = e[t];
-            if ("[object Array]" == Object.prototype.toString.call(r)) for (var i = 0; i < r.length; i++) null != r[i] && void 0 !== r[i] && n.push(encodeURIComponent(t) + "=" + encodeURIComponent(r[i]));
-            else null != r && void 0 !== r && n.push(encodeURIComponent(t) + "=" + encodeURIComponent(r))
+            if ("[object Array]" == Object.prototype.toString.call(r)) 
+                for (var i = 0; i < r.length; i++) 
+                    null != r[i] && void 0 !== r[i] && n.push(encodeURIComponent(t) + "=" + encodeURIComponent(r[i]));
+            else 
+                null != r && void 0 !== r && n.push(encodeURIComponent(t) + "=" + encodeURIComponent(r))
         }
         return n.join("&")
     }
