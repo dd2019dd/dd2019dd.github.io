@@ -1,5 +1,5 @@
 OpenInstall = function (e, n, t) {
-    function parseUrlParams(n) {
+    function r(n) {
         n = n || e.location.href;
         for (var t = n.indexOf("?"), r = -1 == t ? "" : n.substring(t + 1).replace(/\+/g, "%20"), i = r.split("&"), o = {}, a = 0; a < i.length; a++) {
             var c = i[a].split("="),
@@ -18,16 +18,15 @@ OpenInstall = function (e, n, t) {
         }
         return n.join("&")
     }
-    function Url() {
+    function o() {
         var e = 0,
-            argCnt = arguments.length,
+            n = arguments.length,
             t = arguments[e],
             o = t.indexOf("?"),
-            a = parseUrlParams(t);
-        for (e = 1; e < argCnt; e++) {
+            a = r(t);
+        for (e = 1; e < n; e++) {
                 var c = arguments[e];
-                for (var u in c) 
-                    a[u] = c[u]
+                for (var u in c) a[u] = c[u]
             }
         return (-1 == o ? t : t.substring(0, o)) + "?" + i(a)
     }
@@ -172,10 +171,10 @@ OpenInstall = function (e, n, t) {
         S[e](n)
     }
     var p = 2,
-        userAgent = navigator.userAgent,
-        isIphone = userAgent.indexOf("iPhone") > -1 || userAgent.indexOf("iPad") > -1 || userAgent.indexOf("iPod") > -1,
-        isAndroid = userAgent.indexOf("Android") > -1,
-        docReady = function () {
+        h = navigator.userAgent,
+        v = h.indexOf("iPhone") > -1 || h.indexOf("iPad") > -1 || h.indexOf("iPod") > -1,
+        y = h.indexOf("Android") > -1,
+        g = function () {
             "use strict";
 
             function t() {
@@ -460,12 +459,12 @@ OpenInstall = function (e, n, t) {
                     };
                     l(function (r) {
                         c({
-                            url: Url(I.server + "/web/init/" + e.appKey, n, r),
+                            url: o(I.server + "/web/init/" + e.appKey, n, r),
                             method: "POST",
                             contentType: "text/plain;charset=utf-8",
                             data: t,
                             success: function (e) {
-                                docReady(function () {
+                                g(function () {
                                     e.sh && (v = u(e.sh)),
                                     y = e.fu,
                                     b = e.fm,
@@ -493,8 +492,8 @@ OpenInstall = function (e, n, t) {
                 _channelRedirect: !0
             }).wakeupOrInstall()
         },
-    I.parseUrlParams = parseUrlParams,
-    I.docReady = docReady,
+    I.parseUrlParams = r,
+    I.docReady = g,
     I.server = "//openinstall.io",
     I.wakeupOrInstall = function (e, n, t, r, i) {
             n ? f(e, n, function () {
