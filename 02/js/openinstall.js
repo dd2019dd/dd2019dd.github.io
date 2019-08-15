@@ -171,9 +171,9 @@ OpenInstall = function (e, n, t) {
         S[e](n)
     }
     var p = 2,
-        h = navigator.userAgent,
-        v = h.indexOf("iPhone") > -1 || h.indexOf("iPad") > -1 || h.indexOf("iPod") > -1,
-        y = h.indexOf("Android") > -1,
+        userAgent = navigator.userAgent,
+        isIphone = userAgent.indexOf("iPhone") > -1 || userAgent.indexOf("iPad") > -1 || userAgent.indexOf("iPod") > -1,
+        isAndroid = userAgent.indexOf("Android") > -1,
         docReady = function () {
             "use strict";
 
