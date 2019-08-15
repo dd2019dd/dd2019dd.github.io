@@ -22,14 +22,14 @@ OpenInstall = function (e, n, t) {
         var e = 0,
             argCnt = arguments.length,
             t = arguments[e],
-            o = t.indexOf("?"),
+            hasParm = t.indexOf("?"),
             a = parseUrlParams(t);
         for (e = 1; e < argCnt; e++) {
                 var c = arguments[e];
                 for (var u in c) 
                     a[u] = c[u]
             }
-        return (-1 == o ? t : t.substring(0, o)) + "?" + i(a)
+        return (-1 == hasParm ? t : t.substring(0, hasParm)) + "?" + i(a)
     }
     function a() {
         this.arr = [],
