@@ -1,5 +1,5 @@
 OpenInstall = function (e, n, t) {
-    function r(n) {
+    function parseUrlParams(n) {
         n = n || e.location.href;
         for (var t = n.indexOf("?"), r = -1 == t ? "" : n.substring(t + 1).replace(/\+/g, "%20"), i = r.split("&"), o = {}, a = 0; a < i.length; a++) {
             var c = i[a].split("="),
@@ -174,7 +174,7 @@ OpenInstall = function (e, n, t) {
         h = navigator.userAgent,
         v = h.indexOf("iPhone") > -1 || h.indexOf("iPad") > -1 || h.indexOf("iPod") > -1,
         y = h.indexOf("Android") > -1,
-        g = function () {
+        docReady = function () {
             "use strict";
 
             function t() {
@@ -492,8 +492,8 @@ OpenInstall = function (e, n, t) {
                 _channelRedirect: !0
             }).wakeupOrInstall()
         },
-    I.parseUrlParams = r,
-    I.docReady = g,
+    I.parseUrlParams = parseUrlParams,
+    I.docReady = docReady,
     I.server = "//openinstall.io",
     I.wakeupOrInstall = function (e, n, t, r, i) {
             n ? f(e, n, function () {
