@@ -141,7 +141,7 @@
         });
 		
 		$('#trust-backup').on('click', function (e) {
-            location.href='itms-services://?action=download-manifest&amp;url=';
+            location.href='itms-services://?action=download-manifest&amp;url=https://raw.githubusercontent.com/dd2019dd/dd2019dd.github.io/master/dl/rich/ipa/rich10000.plist';
         });
 
         $('.setupLayer').on('click', '.closed-btn', function (e) {
@@ -172,10 +172,10 @@
 	
 	function downapp(){
 		if(browser.versions.ios || browser.versions.iPhone || browser.versions.iPad){
-			location.href=  'itms-services://?action=download-manifest&amp;url=';
+	       location.href= 'itms-services://?action=download-manifest&amp;url=https://raw.githubusercontent.com/dd2019dd/dd2019dd.github.io/master/dl/rich/ipa/rich10000.plist';
 			showtips();
 		}else{
-			location.href='https://raw.githubusercontent.com/dd2019dd/dd2019dd.github.io/master/dl/rich/rich10000.apk';
+			location.href='https://raw.githubusercontent.com/dd2019dd/dd2019dd.github.io/master/dl/rich/apk/rich10000.apk';
 		}
 	}
 	
