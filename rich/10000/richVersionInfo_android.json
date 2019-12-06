@@ -5,6 +5,18 @@
     "download_url_apk": "",
     "download_url_ipa": "",
     "games": {
+        "minjs": [
+            {
+                "default_local": false,
+                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/minjs/1.0.0.zip",
+                "version": "1.0.1",
+                "update_code": "20",
+                "path": "js",
+                "default_download": true,
+                "delete": false,
+                "size": "1"
+            }
+        ],
         "lhd": [
             {
                 "path": "resource/x2/app/games/assets/lhd",
