@@ -3,6 +3,8 @@
     "SOCKET_SSL": false,
     "SOCKET_PORT": 6661,
     "SOCKET_HOST": "lg.houtai567.com",
+    "SOCKET_PORT_HTTPS": 6662,
+    "SOCKET_HOST_HTTPS": "lgs.houtai567.com",
     "HTTP_HOST": "http://login.884356.com",
     "API_HOST": "https://tel.houtai567.com:8112",
     "SEND_CODE_API": "/api/sendsms",
