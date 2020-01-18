@@ -14,6 +14,7 @@
     "IP_CONFIG": "https://cfg.bjl3322.com:8119/rich/public",
     "CustomerDomainWX": "https://cfg.bjl3322.com:8119/rich/cfg/line.json",
     "Trumpet": "本游戏仅为娱乐休闲使用，严禁在平台内赌博等行为！",
+    "NoticeShow": true,
     "Bulletin": "",
     "CustomerDomain": "",
     "newPay": "",
