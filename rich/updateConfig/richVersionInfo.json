@@ -17,23 +17,23 @@
         ],
         "lhd": [
             {
+                "size": "2.49",
                 "path": "resource/x2/app/games/assets/lhd",
                 "version": "1.0.3",
-                "delete": true,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/lhd/1.0.0.zip",
-                "size": "2.49"
+                "delete": true
             }
         ],
         "minjs": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/minjs/1.0.0.zip",
-                "version": "1.0.29",
+                "version": "1.0.30",
                 "update_code": "21",
                 "path": "js",
                 "default_download": true,
-                "delete": false,
-                "size": "1"
+                "size": "1",
+                "delete": false
             }
         ],
         "nn": [
@@ -50,12 +50,12 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/app/1.0.0.zip",
-                "version": "1.0.11",
+                "version": "1.0.12",
                 "update_code": "21",
                 "path": "resource/x2/app",
                 "default_download": true,
-                "size": "1",
-                "delete": false
+                "delete": false,
+                "size": "1"
             }
         ],
         "manifest": [
@@ -66,20 +66,20 @@
                 "update_code": "21",
                 "path": "",
                 "default_download": true,
-                "size": "1",
-                "delete": false
+                "delete": false,
+                "size": "1"
             }
         ],
         "json": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/json/1.0.0.zip",
-                "version": "1.0.14",
+                "version": "1.0.15",
                 "update_code": "21",
                 "path": "resource/x2",
                 "default_download": true,
-                "size": "1",
-                "delete": false
+                "delete": false,
+                "size": "1"
             }
         ],
         "sb": [
