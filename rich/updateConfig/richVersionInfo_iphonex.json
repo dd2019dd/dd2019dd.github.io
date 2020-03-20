@@ -28,7 +28,7 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/minjs/1.0.0.zip",
-                "version": "1.0.29",
+                "version": "1.0.30",
                 "update_code": "26",
                 "path": "js",
                 "default_download": true,
@@ -75,7 +75,7 @@
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/json/1.0.0.zip",
                 "version": "1.0.16",
-                "update_code": "23",
+                "update_code": "26",
                 "path": "resource/x3",
                 "default_download": true,
                 "size": "1",
