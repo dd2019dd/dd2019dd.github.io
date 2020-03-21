@@ -62,8 +62,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/manifest/1.0.0.zip",
-                "version": "1.0.8",
-                "update_code": "26",
+                "version": "1.0.7",
+                "update_code": "21",
                 "path": "",
                 "default_download": true,
                 "delete": false,
@@ -86,8 +86,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/pkgs/1.0.0.zip",
-                "version": "1.0.5",
-                "update_code": "23",
+                "version": "1.0.6",
+                "update_code": "26",
                 "path": "resource/x3/pkgs",
                 "default_download": true,
                 "size": "1",
@@ -108,8 +108,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/eui/1.0.0.zip",
-                "version": "1.0.5",
-                "update_code": "23",
+                "version": "1.0.6",
+                "update_code": "26",
                 "path": "",
                 "default_download": true,
                 "size": "1",
