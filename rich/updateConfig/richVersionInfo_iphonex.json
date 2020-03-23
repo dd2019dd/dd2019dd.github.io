@@ -82,18 +82,6 @@
                 "delete": false
             }
         ],
-        "pkgs": [
-            {
-                "default_local": false,
-                "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/pkgs/1.0.0.zip",
-                "version": "1.0.6",
-                "update_code": "26",
-                "path": "resource/x3",
-                "default_download": true,
-                "delete": false,
-                "size": "1"
-            }
-        ],
         "sb": [
             {
                 "default_local": false,
