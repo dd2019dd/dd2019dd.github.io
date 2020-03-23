@@ -74,8 +74,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/json/1.0.0.zip",
-                "version": "1.0.20",
-                "update_code": "26",
+                "version": "1.0.21",
+                "update_code": "27",
                 "path": "resource/x2",
                 "default_download": true,
                 "size": "1",
