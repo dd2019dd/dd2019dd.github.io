@@ -28,8 +28,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/minjs/1.0.0.zip",
-                "version": "1.0.35",
-                "update_code": "29",
+                "version": "1.0.36",
+                "update_code": "30",
                 "path": "js",
                 "default_download": true,
                 "size": "1",
