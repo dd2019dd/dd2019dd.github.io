@@ -28,7 +28,7 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/minjs/1.0.0.zip",
-                "version": "1.0.36",
+                "version": "1.0.39",
                 "update_code": "30",
                 "path": "js",
                 "default_download": true,
@@ -50,8 +50,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/app/1.0.0.zip",
-                "version": "1.0.21",
-                "update_code": "29",
+                "version": "1.0.23",
+                "update_code": "30",
                 "path": "resource/x3/app",
                 "default_download": true,
                 "delete": false,
@@ -62,8 +62,8 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/manifest/1.0.0.zip",
-                "version": "1.0.9",
-                "update_code": "29",
+                "version": "1.0.11",
+                "update_code": "30",
                 "path": "",
                 "default_download": true,
                 "delete": false,
@@ -74,12 +74,24 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/json/1.0.0.zip",
-                "version": "1.0.19",
-                "update_code": "29",
+                "version": "1.0.21",
+                "update_code": "30",
                 "path": "resource/x3",
                 "default_download": true,
                 "delete": false,
                 "size": "1"
+            }
+        ],
+        "pkgs": [
+            {
+                "default_local": false,
+                "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/pkgs/1.0.0.zip",
+                "version": "1.0.2",
+                "update_code": "30",
+                "path": "resource/x3/pkgs",
+                "default_download": true,
+                "size": "1",
+                "delete": false
             }
         ],
         "sb": [
