@@ -17,23 +17,23 @@
         ],
         "lhd": [
             {
-                "size": "2.49",
                 "path": "resource/x3/app/games/assets/lhd",
                 "version": "1.0.2",
+                "delete": true,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/lhd/1.0.0.zip",
-                "delete": true
+                "size": "2.49"
             }
         ],
         "minjs": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/minjs/1.0.0.zip",
-                "version": "1.0.39",
-                "update_code": "30",
+                "version": "1.0.37",
+                "update_code": "32",
                 "path": "js",
                 "default_download": true,
-                "size": "1",
-                "delete": false
+                "delete": false,
+                "size": "1"
             }
         ],
         "nn": [
@@ -50,48 +50,48 @@
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/app/1.0.0.zip",
-                "version": "1.0.23",
-                "update_code": "30",
+                "version": "1.0.22",
+                "update_code": "32",
                 "path": "resource/x3/app",
                 "default_download": true,
-                "delete": false,
-                "size": "1"
+                "size": "1",
+                "delete": false
             }
         ],
         "manifest": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/manifest/1.0.0.zip",
-                "version": "1.0.11",
-                "update_code": "30",
+                "version": "1.0.10",
+                "update_code": "32",
                 "path": "",
                 "default_download": true,
-                "delete": false,
-                "size": "1"
+                "size": "1",
+                "delete": false
             }
         ],
         "json": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/json/1.0.0.zip",
-                "version": "1.0.21",
-                "update_code": "30",
+                "version": "1.0.20",
+                "update_code": "32",
                 "path": "resource/x3",
                 "default_download": true,
-                "delete": false,
-                "size": "1"
+                "size": "1",
+                "delete": false
             }
         ],
         "pkgs": [
             {
                 "default_local": false,
                 "download_url": "https://update.bjl3322.com:8118/rich/public/game3x/pkgs/1.0.0.zip",
-                "version": "1.0.2",
-                "update_code": "30",
+                "version": "1.0.1",
+                "update_code": "32",
                 "path": "resource/x3/pkgs",
                 "default_download": true,
-                "size": "1",
-                "delete": false
+                "delete": false,
+                "size": "1"
             }
         ],
         "sb": [
