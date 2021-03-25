@@ -5,6 +5,42 @@
     "download_url_apk": "",
     "download_url_ipa": "",
     "games": {
+        "minjs": [
+            {
+                "default_local": false,
+                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/minjs/1.0.45.zip",
+                "version": "1.0.45",
+                "update_code": "45",
+                "path": "js",
+                "default_download": true,
+                "delete": false,
+                "size": "1"
+            }
+        ],
+        "json": [
+            {
+                "default_local": false,
+                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/json/1.0.45.zip",
+                "version": "1.0.45",
+                "update_code": "45",
+                "path": "resource/x2",
+                "default_download": true,
+                "size": "1",
+                "delete": false
+            }
+        ],
+        "app": [
+            {
+                "default_local": false,
+                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/app/1.0.45.zip",
+                "version": "1.0.45",
+                "update_code": "45",
+                "path": "resource/x2/app",
+                "default_download": true,
+                "size": "1",
+                "delete": false
+            }
+        ],
         "yxx": [
             {
                 "default_local": false,
@@ -24,18 +60,6 @@
                 "size": "2.49"
             }
         ],
-        "minjs": [
-            {
-                "default_local": false,
-                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/minjs/1.0.0.zip",
-                "version": "1.0.37",
-                "update_code": "32",
-                "path": "js",
-                "default_download": true,
-                "delete": false,
-                "size": "1"
-            }
-        ],
         "nn": [
             {
                 "default_local": false,
@@ -46,18 +70,6 @@
                 "delete": true
             }
         ],
-        "app": [
-            {
-                "default_local": false,
-                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/app/1.0.0.zip",
-                "version": "1.0.22",
-                "update_code": "35",
-                "path": "resource/x2/app",
-                "default_download": true,
-                "size": "1",
-                "delete": false
-            }
-        ],
         "manifest": [
             {
                 "default_local": false,
@@ -65,18 +77,6 @@
                 "version": "1.0.9",
                 "update_code": "32",
                 "path": "",
-                "default_download": true,
-                "size": "1",
-                "delete": false
-            }
-        ],
-        "json": [
-            {
-                "default_local": false,
-                "download_url": "https://update.bjl3322.com:8118/rich/public/game2x/json/1.0.0.zip",
-                "version": "1.0.22",
-                "update_code": "32",
-                "path": "resource/x2",
                 "default_download": true,
                 "size": "1",
                 "delete": false
